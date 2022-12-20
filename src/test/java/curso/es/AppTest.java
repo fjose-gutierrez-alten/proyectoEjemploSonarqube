@@ -51,7 +51,7 @@ public class AppTest {
     
     @Test
     public void test_mitad() {
-        double devuelto = App.Mitar(10);
+        double devuelto = App.Mitad(10);
         Assert.assertEquals( 5.0 , devuelto , 0);
     }
     
